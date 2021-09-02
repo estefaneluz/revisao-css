@@ -1,9 +1,10 @@
 import './App.css';
+import Modal from './components/Modal'
 
 function App() {
   return (
     <div className="App">
-      <div>Olá!</div>
+      <Modal/>
     </div>
   );
 }

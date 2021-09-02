@@ -7,9 +7,9 @@ import fechar from '../../assets/botao-fechar.svg'
 export default function Modal() {
     return (
         <div className="card">
-            <img src={fechar} alt="icone de fechar"/>
+            <img id="fechar" src={fechar} alt="icone de fechar"/>
             <h3>How satisfied are you with our customer support performance?</h3>
-            <div>
+            <div className="feedback">
                 <div>
                     <img src={emojiTriste} alt="rosto triste"/>
                     <p>Unhappy</p>

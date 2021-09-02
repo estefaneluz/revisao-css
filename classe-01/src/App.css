@@ -11,6 +11,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #212D59;
+    text-align: center;
 }
 
 .App {
@@ -19,4 +20,18 @@ body {
     display: flex;
     align-items: center;  
     justify-content: center;
+}
+
+button { 
+    all: unset;
+
+    width: 10vw;
+    padding: 12px;
+
+    background-color: #2F2D2C;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+
+    cursor: pointer;
 }
