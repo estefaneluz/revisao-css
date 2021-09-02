@@ -2,12 +2,19 @@ import './App.css';
 import { useState } from 'react'
 import Modal from './components/Modal'
 import Feedback from './components/Feedback';
+import ThanksMessage from './components/ThanksMessage'
 
 function App() {
   const [open, setOpen] = useState(true);
+  const [openMessage, setOpenMessage] = useState(false);
 
   const close = () => {
-    return setOpen(!open);
+    setOpenMessage(false);
+    setOpen(!open);
+  }
+
+  const showMessage = () => {
+    return setOpenMessage(true);
   }
 
   return (
@@ -15,7 +22,11 @@ function App() {
       { 
       open &&
       <Modal close={close}>
-        <Feedback close={close}/>
+        {
+          !openMessage 
+          ? <Feedback close={close} showMessage={showMessage}/>
+          : <ThanksMessage/>
+        }
       </Modal>
       }
     </div>
