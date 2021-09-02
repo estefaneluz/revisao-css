@@ -9,3 +9,8 @@
 .feedback > div {
     cursor: pointer;
 }
+
+.feedback p {
+    opacity: 0.5;
+    font-weight: 500;
+}
