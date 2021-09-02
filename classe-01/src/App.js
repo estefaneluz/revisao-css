@@ -8,7 +8,7 @@ function App() {
   const [open, setOpen] = useState(true);
   const [openMessage, setOpenMessage] = useState(false);
 
-  const close = () => {
+  const toggleModal = () => {
     setOpenMessage(false);
     setOpen(!open);
   }
@@ -19,13 +19,14 @@ function App() {
 
   return (
     <div className="App">
+      {!open && <button onClick={toggleModal} >Dar Feedback</button>}
       { 
       open &&
-      <Modal close={close}>
+      <Modal close={toggleModal}>
         {
           !openMessage 
-          ? <Feedback close={close} showMessage={showMessage}/>
-          : <ThanksMessage/>
+          ? <Feedback close={toggleModal} showMessage={showMessage}/>
+          : <ThanksMessage close={toggleModal}/>
         }
       </Modal>
       }
