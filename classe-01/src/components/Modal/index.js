@@ -1,10 +1,14 @@
 import './styles.css'
 import fechar from '../../assets/botao-fechar.svg'
 
-export default function Modal({children}) {
+export default function Modal({children, close}) {
     return (
         <div className="card">
-            <img id="fechar" src={fechar} alt="icone de fechar"/>
+            <img
+                onClick={close} 
+                id="fechar" 
+                src={fechar} 
+                alt="icone de fechar"/>
             {children}
         </div>
     )

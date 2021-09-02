@@ -3,7 +3,7 @@ import emojiFeliz from '../../assets/emoji-feliz.svg'
 import emojiNeutro from '../../assets/emoji-neutro.svg'
 import emojiTriste from '../../assets/emoji-triste.svg'
 
-export default function Feedback() {
+export default function Feedback({close}) {
     return (
         <>
         <h3>How satisfied are you with our customer support performance?</h3>
@@ -21,7 +21,7 @@ export default function Feedback() {
                     <p>Satisfied</p>
                 </div>
             </div>
-            <button>Close</button>
+            <button onClick={close}>Close</button>
         </>
     )
 }
