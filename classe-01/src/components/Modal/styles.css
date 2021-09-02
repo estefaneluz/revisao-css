@@ -19,16 +19,4 @@
     cursor: pointer;
 }
 
-.feedback {
-    width: 100%;
-
-    display: flex;
-    justify-content: space-around;
-    column-gap: 10px;
-}
-
-.feedback > div {
-    cursor: pointer;
-}
-
 
