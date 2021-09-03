@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.feedback > div:hover {
+    opacity: 0.5;
+    transition: 800ms;
+}
+
 .feedback p {
     opacity: 0.5;
     font-weight: 500;
