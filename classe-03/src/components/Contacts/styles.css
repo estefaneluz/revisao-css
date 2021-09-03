@@ -1,0 +1,33 @@
+button {
+    all: unset;
+    cursor: pointer;
+
+    background-color: #000000;
+    border-radius: 60px;
+    padding: 18px;
+    color: #fff;
+
+    font-weight: bold;
+}
+
+.card-contacs {
+    margin: 5vh 0;
+    padding: 38px;
+
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.card-contacs h2 span {
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 22px;
+}
