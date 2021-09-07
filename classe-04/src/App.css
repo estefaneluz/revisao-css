@@ -10,6 +10,10 @@ body {
     color: #202142;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .container {
     min-height: 100vh;
 

@@ -25,3 +25,7 @@
     display: flex;
     gap: 15px;
 }
+
+.small-card .design-container img {
+    max-width: 250px;
+}
