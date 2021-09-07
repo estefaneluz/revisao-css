@@ -2,7 +2,7 @@ import './styles.css'
 
 export default function LargeCard() {
     return(
-        <div className="large-card">
+        <div className="card large-card">
             <div>
                 <img/>
                 <div>
