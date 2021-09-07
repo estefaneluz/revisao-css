@@ -1,0 +1,27 @@
+.btn-dark {
+    all: unset;
+    cursor: pointer;
+
+    margin-left: auto;
+
+    background-color: #202142;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.small-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.small-card .design-container {
+    display: flex;
+    gap: 15px;
+}

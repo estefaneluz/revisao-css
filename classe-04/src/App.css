@@ -10,4 +10,31 @@ body {
     align-items: center;
     place-content: center;
     background: rgba(255, 106, 149, 0.1);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    padding: 30px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.user-img {
+    width: 100px;
+
+    border: 8px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+}
+
+.design-container img {
+    border-radius: 10px;
 }
