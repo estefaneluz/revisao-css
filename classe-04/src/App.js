@@ -1,10 +1,11 @@
 import './App.css';
+import SmallCard from './components/SmallCard';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <SmallCard/>
+    </>
   );
 }
 
