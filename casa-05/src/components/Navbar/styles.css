@@ -24,9 +24,12 @@ nav li {
 
 nav button {
     all: unset;
-    padding: 16px;
+    padding: 16px 32px;
     border-radius: 28px;
     background-color: #fff;
+
     color: #000;
     text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

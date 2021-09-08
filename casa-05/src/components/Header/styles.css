@@ -1,0 +1,18 @@
+.container-header {
+    background-image: url('../../assets/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+
+    color: #fff;
+}
+
+.container-header h2 {
+    align-self: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
