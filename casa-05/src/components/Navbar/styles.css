@@ -1,35 +1,36 @@
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  color: #fff;
 }
 
 nav h1 {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    column-gap: 40px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 40px;
 
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 nav button {
-    all: unset;
-    padding: 16px 32px;
-    border-radius: 28px;
-    background-color: #fff;
+  all: unset;
+  padding: 16px 32px;
+  border-radius: 28px;
+  background-color: #fff;
 
-    color: #000;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
