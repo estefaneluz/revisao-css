@@ -1,0 +1,32 @@
+.learn-more-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 32px;
+}
+
+.content a {
+    text-transform: uppercase;
+}
+
+.content h3 {
+    font-size: 40px;
+}
+
+.half-img {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FFD401;
+}
+
+.half-img img {
+    max-width: 50vw;
+}

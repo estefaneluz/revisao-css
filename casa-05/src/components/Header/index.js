@@ -1,6 +1,5 @@
 import './styles.css'
 import Navbar from "../Navbar";
-import background from '../../assets/image-header.jpg'
 
 export default function Header() {
     return (
