@@ -1,0 +1,38 @@
+.category-container {
+  display: flex;
+}
+
+.category-content {
+  width: 50%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/image-graphic-design.jpg");
+  background-color: #8cd0c3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 18px;
+}
+
+.category-content.second {
+  background-image: url("../../assets/image-photography.jpg");
+  background-color: #5dc6fd;
+}
+
+.category-content h3 {
+  font-size: 28px;
+  color: #24303e;
+  opacity: 0.8;
+}
+
+.category-content p {
+  margin-bottom: 64px;
+  max-width: 310px;
+  text-align: center;
+  line-height: 24px;
+  color: #24303e;
+  opacity: 0.8;
+}
